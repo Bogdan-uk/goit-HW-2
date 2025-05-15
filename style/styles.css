@@ -13,7 +13,7 @@ body {
 /* _______________________________ */
 
 .header-logo {
-  font-family: "raleway";
+  font-family: "raleway" sans-serif;
   font-weight: 700;
   font-size: 18px;
 
@@ -24,14 +24,6 @@ body {
   color: #4d5ae5;
 }
 .header-logo-span {
-  font-family: "raleway";
-  font-weight: 700;
-  font-size: 18px;
-
-  /* line-height: 21px; */
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .list-menu-item {
@@ -66,6 +58,27 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.header-menu-contacts-item {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-menu-contacts-item:hover {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
 .head-title {
   font-weight: 700;
   font-size: 56px;
@@ -91,4 +104,49 @@ body {
 }
 .btn:hover {
   background-color: #404bbf;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.subtitle-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+
+  /* line-height: 40px; */
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
 }
