@@ -9,6 +9,8 @@ address {
 }
 body {
   font-family: "Roboto" sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* _______________________________ */
 
@@ -25,6 +27,15 @@ body {
 }
 .header-logo-span {
   color: #2e2f42;
+  font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .list-menu-item {
   font-weight: 500;
@@ -78,6 +89,9 @@ body {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
+.header-menu-contacts-item:focus {
+  color: #404bbf;
+}
 
 .head-title {
   font-weight: 700;
@@ -106,6 +120,10 @@ body {
   background-color: #404bbf;
 }
 
+.section-team {
+  background-color: #f4f4fd;
+}
+
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -125,6 +143,12 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.users-subtitle {
+  text-transform: capitalize;
+}
+.users-list {
+  background-color: #ffffff;
+}
 
 .section-title {
   font-weight: 700;
@@ -137,6 +161,9 @@ body {
   color: #2e2f42;
 }
 
+.section-title-portfolio {
+  text-transform: capitalize;
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -149,4 +176,8 @@ body {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer-accent {
+  color: #ffffff;
 }
