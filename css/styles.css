@@ -60,15 +60,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.list-menu-item {
-  font-weight: 400;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 
 .header-menu-contacts-item {
   font-weight: 400;
@@ -115,13 +106,13 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #404bbf;
 }
-
-.section-team {
-  background-color: #f4f4fd;
+.btn:focus {
+  background-color: #404bbf;
 }
 
 .section-subtitle {
@@ -147,6 +138,9 @@ body {
   text-transform: capitalize;
 }
 .users-list {
+  background-color: #ffffff;
+}
+.user-des {
   background-color: #ffffff;
 }
 
@@ -179,5 +173,5 @@ body {
 }
 
 .footer-accent {
-  color: #ffffff;
+  color: #f4f4fd;
 }
