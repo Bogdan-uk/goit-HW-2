@@ -154,7 +154,7 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.user-des {
+.user {
   font-weight: 500;
   font-size: 20px;
 
@@ -164,30 +164,11 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-.user-market {
-  font-weight: 500;
-  font-size: 20px;
 
-  /* line-height: 24px; */
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-.user-ui {
-  font-weight: 500;
-  font-size: 20px;
-
-  /* line-height: 24px; */
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
 . .users-list {
   background-color: #ffffff;
 }
-.user-des {
+.user {
   background-color: #ffffff;
 }
 
